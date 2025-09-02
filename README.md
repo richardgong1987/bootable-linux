@@ -1,18 +1,14 @@
 # bootable-centos
 
-### Create CentOS bootable USB installer on Mac OSX
+## AlmaLinux bootable USB installer on Mac OSX
 
 Before burning(Important)
+
+format the USB disk to EXFAT, first
+
 ```sh
-diskutil unmountDisk /dev/disk4
-```
+diskutil list
 
-https://enrapture.gg/blog/2014/10/create-centos-bootable-usb-installer-mac-osx/
-
-### AlmaLinux bootable USB installer on Mac OSX
-
-Before burning(Important)
-```sh
 diskutil unmountDisk /dev/disk4
 ```
 
